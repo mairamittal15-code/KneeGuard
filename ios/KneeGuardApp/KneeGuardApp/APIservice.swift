@@ -34,7 +34,7 @@ final class APIService {
         print("VIDEO URL:", videoURL)
 
         guard let url = URL(
-            string: "http://192.168.1.167:8000/analyze"
+            string: "http://YOURLOCALIP:8000/analyze"
         ) else {
             throw APIServiceError.invalidResponse
         }
